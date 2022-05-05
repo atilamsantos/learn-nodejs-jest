@@ -1,0 +1,28 @@
+{
+  "name": "learn-nodejs-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "cross-env NODE_OPTIONS='--experimental-vm-modules' jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atilamsantos/learn-nodejs-jest.git"
+  },
+  "keywords": [],
+  "author": "Átila Menezes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atilamsantos/learn-nodejs-jest/issues"
+  },
+  "homepage": "https://github.com/atilamsantos/learn-nodejs-jest#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^28.0.3",
+    "nodemon": "^2.0.16",
+    "supertest": "^6.2.3"
+  }
+}
